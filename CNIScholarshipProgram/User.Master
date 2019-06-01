@@ -1,0 +1,73 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="User.master.vb" Inherits="CNIScholarshipProgram.User" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Scholarship Application</title>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+    <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700|Roboto:400,900"
+        rel="stylesheet" type="text/css" />
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <!-- Favicon -->
+    <link id="link1" rel="icon" href="img/favicon.ico" type="image/x-icon" runat="server" />
+    <link id="link2" rel="icon" href="img/favicon.ico" type="image/ico" runat="server" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <%
+        Dim sessionUserID As String
+        If Not Web.HttpContext.Current.Session("SessionUserID") Is Nothing Then
+            sessionUserID = Web.HttpContext.Current.Session("SessionUserID").ToString()
+        End If
+    
+        If sessionUserID = Nothing Then
+            sessionUserID = Request.QueryString("SessionUserID")
+            Web.HttpContext.Current.Session("SessionUserID") = sessionUserID
+        End If
+    %>
+  <header id="header">
+    <div class="container">
+      <div id="logo" class="pull-left">
+        <img src="img/hanoLogoSmaller.png" alt="" title="" />
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li><a href="Dashboard.aspx?SessionUserID=<% Response.Write(sessionUserID) %>"><i class="fa fa-tachometer" aria-hidden="true"></i>&nbsp; Dashoard</a></li>
+          <li><a href="ElectronicApplications.aspx?SessionUserID=<% Response.Write(sessionUserID) %>"><i class="fa fa-bolt" aria-hidden="true"></i>&nbsp; Electronic Applications</a></li>
+          <li><a href="UploadedApplications.aspx?SessionUserID=<% Response.Write(sessionUserID) %>"><i class="fa fa-paperclip" aria-hidden="true"></i>&nbsp; Uploaded Applications</a></li>
+          <li><a href="/CNIScholarshipProgram/"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+    <script type="text/javascript" src="js/bs.pagination.js"></script>
+    <script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

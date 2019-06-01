@@ -1,0 +1,689 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CNIScholarshipProgram
+</name>
+</assembly>
+<members>
+<member name="T:CNIScholarshipProgram.My.MyWebExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:CNIScholarshipProgram.My.MyWebExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:CNIScholarshipProgram.My.MyWebExtension.User">
+ <summary>
+ Returns information for the current Web user.
+ </summary>
+</member>
+<member name="P:CNIScholarshipProgram.My.MyWebExtension.Request">
+ <summary>
+ Returns Request object.
+ </summary>
+</member>
+<member name="P:CNIScholarshipProgram.My.MyWebExtension.Response">
+ <summary>
+ Returns Response object.
+ </summary>
+</member>
+<member name="P:CNIScholarshipProgram.My.MyWebExtension.Log">
+ <summary>
+ Returns the Asp log object.
+ </summary>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._ScriptManager1">
+<summary>
+ScriptManager1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._firstName">
+<summary>
+firstName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._requiredFirstName">
+<summary>
+requiredFirstName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._lastName">
+<summary>
+lastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._requiredLastName">
+<summary>
+requiredLastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._email">
+<summary>
+email control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._requiredEmail">
+<summary>
+requiredEmail control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._phoneNumber">
+<summary>
+phoneNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._requiredPhoneNumber">
+<summary>
+requiredPhoneNumber control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._mailingStreetAddress">
+<summary>
+mailingStreetAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._requiredMailingStreetAddress">
+<summary>
+requiredMailingStreetAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._mailingCity">
+<summary>
+mailingCity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._requiredMailingCity">
+<summary>
+requiredMailingCity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._mailingState">
+<summary>
+mailingState control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._requiredMailingState">
+<summary>
+requiredMailingState control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._mailingZipCode">
+<summary>
+mailingZipCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._requiredMailingZipCode">
+<summary>
+requiredMailingZipCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._birthMonth">
+<summary>
+birthMonth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._requiredBirthMonth">
+<summary>
+requiredBirthMonth control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._birthDay">
+<summary>
+birthDay control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._requiredBirthDay">
+<summary>
+requiredBirthDay control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._birthYear">
+<summary>
+birthYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._requiredBirthYear">
+<summary>
+requiredBirthYear control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._sex">
+<summary>
+sex control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._requiredSex">
+<summary>
+requiredSex control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._gpa">
+<summary>
+gpa control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._requiredGPA">
+<summary>
+requiredGPA control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._firstToAttendCollege">
+<summary>
+firstToAttendCollege control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._requiredFirstToAttendCollege">
+<summary>
+requiredFirstToAttendCollege control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._schoolAttending">
+<summary>
+schoolAttending control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._requiredSchoolAttending">
+<summary>
+requiredSchoolAttending control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._schoolCityStateAttending">
+<summary>
+schoolCityStateAttending control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._requiredSchoolCityStateAttending">
+<summary>
+requiredSchoolCityStateAttending control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._academicHonors">
+<summary>
+academicHonors control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._nonAcademicAwards">
+<summary>
+nonAcademicAwards control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._membershipActivities">
+<summary>
+membershipActivities control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._hobbiesOutsideInterests">
+<summary>
+hobbiesOutsideInterests control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._extracurricularActivites">
+<summary>
+extracurricularActivites control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._schoolRelatedVolunteerActivites">
+<summary>
+schoolRelatedVolunteerActivites control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._collegeWillAttend">
+<summary>
+collegeWillAttend control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._collegeChoiceOne">
+<summary>
+collegeChoiceOne control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._collegeChoiceTwo">
+<summary>
+collegeChoiceTwo control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._collegeChoiceThree">
+<summary>
+collegeChoiceThree control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._employeeOfHano">
+<summary>
+employeeOfHano control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._requiredEmployeeOfHano">
+<summary>
+requiredEmployeeOfHano control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._parentOrLegalGuardianFirstName">
+<summary>
+parentOrLegalGuardianFirstName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._parentOrLegalGuardianLastName">
+<summary>
+parentOrLegalGuardianLastName control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._parentOrLegalGuardianStreetAddress">
+<summary>
+parentOrLegalGuardianStreetAddress control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._parentOrLegalGuardianCity">
+<summary>
+parentOrLegalGuardianCity control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._parentOrLegalGuardianState">
+<summary>
+parentOrLegalGuardianState control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._parentOrLegalGuardianZipCode">
+<summary>
+parentOrLegalGuardianZipCode control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._parentOrLegalGuardianHomePhone">
+<summary>
+parentOrLegalGuardianHomePhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._parentOrLegalGuardianWorkPhone">
+<summary>
+parentOrLegalGuardianWorkPhone control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._essaySubmisison">
+<summary>
+essaySubmisison control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._requiredEssaySubmisison">
+<summary>
+requiredEssaySubmisison control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._transcriptSupportStatement">
+<summary>
+transcriptSupportStatement control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._requiredTranscriptSupportStatement">
+<summary>
+requiredTranscriptSupportStatement control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._signatureOfScholarshipApplicant">
+<summary>
+signatureOfScholarshipApplicant control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._requiredSignatureOfScholarshipApplicant">
+<summary>
+requiredSignatureOfScholarshipApplicant control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._signatureOfScholarshipApplicantDate">
+<summary>
+signatureOfScholarshipApplicantDate control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Apply._button">
+<summary>
+button control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Site._Head1">
+<summary>
+Head1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Site._link1">
+<summary>
+link1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Site._link2">
+<summary>
+link2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Site._HeadContent">
+<summary>
+HeadContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Site._Form1">
+<summary>
+Form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.Site._MainContent">
+<summary>
+MainContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.User._link1">
+<summary>
+link1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.User._link2">
+<summary>
+link2 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.User._HeadContent">
+<summary>
+HeadContent control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.User._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:CNIScholarshipProgram.User._ContentPlaceHolder1">
+<summary>
+ContentPlaceHolder1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

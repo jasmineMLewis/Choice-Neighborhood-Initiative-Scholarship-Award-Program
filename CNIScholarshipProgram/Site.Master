@@ -1,0 +1,91 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site.master.vb" Inherits="CNIScholarshipProgram.Site" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+    <title>Scholarship Application</title>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+    <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700|Roboto:400,900"
+        rel="stylesheet" type="text/css" />
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+    <!-- Favicon -->
+    <link id="link1" rel="icon" href="img/favicon.ico" type="image/x-icon" runat="server" />
+    <link id="link2" rel="icon" href="img/favicon.ico" type="image/ico" runat="server" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <section class="hero">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-md-12">
+              <a class="hero-brand" href="Default.aspx" title="Home"><img alt="HANO Logo" src="img/hanoLogo.png" /></a>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <h2>
+               Choice Neighborhood Initiatives Scholarship Program
+            </h2>
+            <p class="tagline">
+              The Scholarship is now open to ALL HANO assisted residents (Public Housing and HCVP/Section 8 Participants).
+            </p>
+            <a class="btn btn-full" href="Apply.aspx">Apply for Scholarship</a>
+          </div>
+        </div>
+    </section>
+    <form id="Form1" runat="server">
+     <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+    </form>
+  <footer class="site-footer">
+    <div class="bottom">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6 col-xs-12 text-lg-left text-center">
+            <div class="credits">
+              Copyright © 2018 Housing Authority of New Orleans 
+            </div>
+            <div class="credits">
+             Designed by <a href="https://www.hano.org/">HANO</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+    <script src="lib/jquery/jquery.min.js" type="text/javascript"></script>
+    <script src="lib/jquery/jquery-migrate.min.js" type="text/javascript"></script>
+    <script src="lib/superfish/hoverIntent.js" type="text/javascript"></script>
+    <script src="lib/superfish/superfish.min.js" type="text/javascript"></script>
+    <script src="lib/tether/js/tether.min.js" type="text/javascript"></script>
+    <script src="lib/stellar/stellar.min.js" type="text/javascript"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <script src="lib/counterup/counterup.min.js" type="text/javascript"></script>
+    <script src="lib/waypoints/waypoints.min.js" type="text/javascript"></script>
+    <script src="lib/easing/easing.js" type="text/javascript"></script>
+    <script src="lib/stickyjs/sticky.js" type="text/javascript"></script>
+    <script src="lib/parallax/parallax.js" type="text/javascript"></script>
+    <script src="lib/lockfixed/lockfixed.min.js" type="text/javascript"></script>
+    <script src="js/custom.js" type="text/javascript"></script>
+</body>
+</html>
+
