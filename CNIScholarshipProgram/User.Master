@@ -55,7 +55,7 @@
           <li><a href="Dashboard.aspx?SessionUserID=<% Response.Write(sessionUserID) %>"><i class="fa fa-tachometer" aria-hidden="true"></i>&nbsp; Dashoard</a></li>
           <li><a href="ElectronicApplications.aspx?SessionUserID=<% Response.Write(sessionUserID) %>"><i class="fa fa-bolt" aria-hidden="true"></i>&nbsp; Electronic Applications</a></li>
           <li><a href="UploadedApplications.aspx?SessionUserID=<% Response.Write(sessionUserID) %>"><i class="fa fa-paperclip" aria-hidden="true"></i>&nbsp; Uploaded Applications</a></li>
-          <li><a href="/CNIScholarshipProgram/"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a></li>
+          <li><a href="/"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a></li>
         </ul>
       </nav>
     </div>

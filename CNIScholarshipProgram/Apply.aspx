@@ -1,4 +1,5 @@
-﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site.Master" CodeBehind="Apply.aspx.vb" Inherits="CNIScholarshipProgram.Apply" %>
+﻿<%@ Page Title="" Language="vb" AutoEventWireup="false" MasterPageFile="~/Site.Master" 
+    CodeBehind="Apply.aspx.vb" Inherits="CNIScholarshipProgram.Apply" %>
 
 <%--<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>--%>
 

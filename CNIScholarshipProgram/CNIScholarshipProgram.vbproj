@@ -93,7 +93,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Apply.aspx" />
+    <Content Include="CreateUploadedApplication.aspx" />
     <Content Include="css\style.css" />
+    <Content Include="Dashboard.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="ElectronicApplications.aspx" />
     <Content Include="img\cover.jpg" />
     <Content Include="img\favicon.ico" />
     <Content Include="img\hanoLogo.png" />
@@ -133,6 +137,8 @@
     <Content Include="lib\tether\js\tether.js" />
     <Content Include="lib\tether\js\tether.min.js" />
     <Content Include="lib\waypoints\waypoints.min.js" />
+    <Content Include="UploadedApplications.aspx" />
+    <Content Include="ViewApplication.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -141,6 +147,34 @@
     </Compile>
     <Compile Include="Apply.aspx.vb">
       <DependentUpon>Apply.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="CreateUploadedApplication.aspx.designer.vb">
+      <DependentUpon>CreateUploadedApplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CreateUploadedApplication.aspx.vb">
+      <DependentUpon>CreateUploadedApplication.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Dashboard.aspx.designer.vb">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.aspx.vb">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ElectronicApplications.aspx.designer.vb">
+      <DependentUpon>ElectronicApplications.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ElectronicApplications.aspx.vb">
+      <DependentUpon>ElectronicApplications.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -169,12 +203,26 @@
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="UploadedApplications.aspx.designer.vb">
+      <DependentUpon>UploadedApplications.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UploadedApplications.aspx.vb">
+      <DependentUpon>UploadedApplications.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="User.Master.designer.vb">
       <DependentUpon>User.Master</DependentUpon>
     </Compile>
     <Compile Include="User.Master.vb">
       <DependentUpon>User.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewApplication.aspx.designer.vb">
+      <DependentUpon>ViewApplication.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewApplication.aspx.vb">
+      <DependentUpon>ViewApplication.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>

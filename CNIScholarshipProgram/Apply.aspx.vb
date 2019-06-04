@@ -102,10 +102,11 @@ Public Class Apply
         Dim _parentOrLegalGuardianHomePhone As String = parentOrLegalGuardianHomePhone.Text.Trim()
         Dim _parentOrLegalGuardianWorkPhone As String = parentOrLegalGuardianWorkPhone.Text.Trim()
         Dim _signatureOfScholarshipApplicant As String = signatureOfScholarshipApplicant.Text.Trim()
+        Dim _signatureOfScholarshipApplicantDate As String = signatureOfScholarshipApplicantDate.Text.Trim()
 
         'The format that the date control uses
-        Const DATE_FORMAT As String = "MM/dd/yyyy"
-        Dim _parsedSignatureOfScholarshipApplicantDate As DateTime = DateTime.ParseExact(signatureOfScholarshipApplicantDate.Text, DATE_FORMAT, CultureInfo.InvariantCulture)
+        'Const DATE_FORMAT As String = "MM/dd/yyyy"
+        'Dim _parsedSignatureOfScholarshipApplicantDate As DateTime = DateTime.ParseExact(signatureOfScholarshipApplicantDate.Text, DATE_FORMAT, CultureInfo.InvariantCulture)
 
         Dim query As String = String.Empty
         query &= "INSERT INTO ElectronicApplications (FirstName, LastName, Email, CellPhone, MailingStreetAddress,  "
@@ -173,9 +174,10 @@ Public Class Apply
                 .Parameters.AddWithValue("@ParentOrLegalGuardianHomePhone", _parentOrLegalGuardianHomePhone)
                 .Parameters.AddWithValue("@ParentOrLegalGuardianWorkPhone", _parentOrLegalGuardianWorkPhone)
                 .Parameters.AddWithValue("@SignatureOfScholarshipApplicant", _signatureOfScholarshipApplicant)
-                .Parameters.AddWithValue("@SignatureOfScholarshipApplicantDate", _parsedSignatureOfScholarshipApplicantDate)
+                .Parameters.AddWithValue("@SignatureOfScholarshipApplicantDate", _signatureOfScholarshipApplicantDate)
                 .Parameters.AddWithValue("@OfficalSubmissionDate", Date.Now)
             End With
+
             conn.Open()
             _applicationID = comm.ExecuteScalar()
             conn.Close()

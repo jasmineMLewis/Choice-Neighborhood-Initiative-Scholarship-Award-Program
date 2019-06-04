@@ -1,6 +1,3 @@
-C:\Users\dholmes\Documents\VisualBasicPrograms\CNIScholarshipProgram\CNIScholarshipProgram\obj\Debug\CNIScholarshipProgram.Resources.resources
-C:\Users\dholmes\Documents\VisualBasicPrograms\CNIScholarshipProgram\CNIScholarshipProgram\obj\Debug\CNIScholarshipProgram.vbproj.GenerateResource.cache
-C:\Users\dholmes\Documents\VisualBasicPrograms\CNIScholarshipProgram\CNIScholarshipProgram\obj\Debug\CNIScholarshipProgram.vbproj.CoreCompileInputs.cache
 C:\Users\dholmes\Documents\VisualBasicPrograms\CNIScholarshipProgram\CNIScholarshipProgram\bin\CNIScholarshipProgram.dll.config
 C:\Users\dholmes\Documents\VisualBasicPrograms\CNIScholarshipProgram\CNIScholarshipProgram\bin\CNIScholarshipProgram.dll
 C:\Users\dholmes\Documents\VisualBasicPrograms\CNIScholarshipProgram\CNIScholarshipProgram\bin\CNIScholarshipProgram.pdb
@@ -53,6 +50,10 @@ C:\Users\dholmes\Documents\VisualBasicPrograms\CNIScholarshipProgram\CNIScholars
 C:\Users\dholmes\Documents\VisualBasicPrograms\CNIScholarshipProgram\CNIScholarshipProgram\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\dholmes\Documents\VisualBasicPrograms\CNIScholarshipProgram\CNIScholarshipProgram\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\dholmes\Documents\VisualBasicPrograms\CNIScholarshipProgram\CNIScholarshipProgram\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\dholmes\Documents\VisualBasicPrograms\CNIScholarshipProgram\CNIScholarshipProgram\obj\Debug\CNIScholarshipProgram.vbprojAssemblyReference.cache
+C:\Users\dholmes\Documents\VisualBasicPrograms\CNIScholarshipProgram\CNIScholarshipProgram\obj\Debug\CNIScholarshipProgram.Resources.resources
+C:\Users\dholmes\Documents\VisualBasicPrograms\CNIScholarshipProgram\CNIScholarshipProgram\obj\Debug\CNIScholarshipProgram.vbproj.GenerateResource.cache
+C:\Users\dholmes\Documents\VisualBasicPrograms\CNIScholarshipProgram\CNIScholarshipProgram\obj\Debug\CNIScholarshipProgram.vbproj.CoreCompileInputs.cache
 C:\Users\dholmes\Documents\VisualBasicPrograms\CNIScholarshipProgram\CNIScholarshipProgram\obj\Debug\CNIScholarshipProgram.vbproj.CopyComplete
 C:\Users\dholmes\Documents\VisualBasicPrograms\CNIScholarshipProgram\CNIScholarshipProgram\obj\Debug\CNIScholarshipProgram.dll
 C:\Users\dholmes\Documents\VisualBasicPrograms\CNIScholarshipProgram\CNIScholarshipProgram\obj\Debug\CNIScholarshipProgram.xml
